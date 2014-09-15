@@ -4,7 +4,8 @@ def split_words(sentence)
 
   make_it = make_the_sort.sort { |x,y| x.downcase <=> y.downcase }
 
-  print make_it
+  make_it_a_string = make_it.join(', ')
+  print make_it_a_string
 end
 
 puts "Enter a sentence: "
